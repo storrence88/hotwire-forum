@@ -1,6 +1,8 @@
 <%= turbo_stream_from @discussion %>
 <%= render partial: "header", locals: { discussion: @discussion } %>
 
+<%= render partial: "discussions/posts/post", collection: @posts %>
+
 <hr class="my-4">
 
 <div class=<%= dom_id @new_post %>>
