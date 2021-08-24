@@ -1,7 +1,9 @@
 <%= turbo_stream_from @discussion %>
 <%= render partial: "header", locals: { discussion: @discussion } %>
 
-<%= render partial: "discussions/posts/post", collection: @posts %>
+<div id="posts">
+  <%= render partial: "discussions/posts/post", collection: @posts %>
+</div>
 
 <hr class="my-4">
 
