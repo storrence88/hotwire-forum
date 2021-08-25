@@ -27,7 +27,7 @@ Style/PercentLiteralDelimiters:
 Style/Documentation:
   Enabled: false
 Layout/LineLength:
-  Max: 100
+  Max: 120
 Style/CollectionMethods:
   Enabled: false
 Style/Lambda:
